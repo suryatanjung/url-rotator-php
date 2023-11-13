@@ -26,3 +26,5 @@ $url = $urls[$index];
 // echo $url;
 header("Refresh: 0.1;url=https://$url");
 exit();
+
+// github.com/suryatanjung
