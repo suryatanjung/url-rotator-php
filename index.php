@@ -22,6 +22,7 @@ file_put_contents($dataFile, $index);
 
 // Visit the corresponding URL
 $url = $urls[$index];
+
 // echo $url;
 header("Refresh: 0.1;url=https://$url");
 exit();
