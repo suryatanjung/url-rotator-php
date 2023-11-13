@@ -17,7 +17,7 @@ if($index + 1 >= count($urls)){
 }
 $index = $index + 1;
 
-// Sve document
+// Save document
 file_put_contents($dataFile, $index);
 
 // Visit the corresponding URL
